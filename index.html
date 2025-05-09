@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNN Business</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="bg-red-600 p-4 flex justify-center space-x-6">
+        <a href="#home" class="nav-item">markets</a>
+        <a href="#world" class="nav-item">Tech</a>
+        <a href="#sports" class="nav-item">Media</a>
+        <a href="#tech" class="nav-item">Calculators</a>
+        <a href="#entertainment" class="nav-item">Video</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content" id="home">
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bill Gates" class="w-full mb-2">
+            <h2 class="text-xl font-bold"><a href="#article1">Bill Gates announces plan to give 'virtually all' his money away and end the Gates Foundation in 20 years</a></h2>
+            <p>Bill Gates has announced a groundbreaking plan to donate nearly all of his wealth...</p>
+        </div>
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trade Deal" class="w-full mb-2">
+            <h2 class="text-xl font-bold"><a href="#article2">One trade 'deal' done, 199 to go</a></h2>
+            <p>A significant trade agreement has been finalized, marking a step forward...</p>
+        </div>
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Google AI" class="w-full mb-2">
+            <h2 class="text-xl font-bold"><a href="#article3">Google is using AI to identify scammy websites on Chrome when you click on them</a></h2>
+            <p>Google has introduced a new AI-powered feature in Chrome...</p>
+        </div>
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1pYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Labor Market" class="w-full mb-2">
+            <h2 class="text-xl font-bold"><a href="#article4">Will the Fed step in if America's labor market cracks from Trump's tariffs?</a></h2>
+            <p>Analysis on the potential Federal Reserve actions...</p>
+        </div>
+        <div class="ad">
+            <img src="https://via.placeholder.com/300x200" alt="Ad" class="w-full mb-2">
+            <h2 class="text-xl font-bold">More than a game: 24/7 coverage of the world's top stars</h2>
+            <p class="text-sm text-gray-500">Advertisement | Ad Feedback</p>
+        </div>
+    </div>
+
+    <!-- Category Sections -->
+    <div class="main-content hidden" id="world">
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Markets News" class="w-full mb-2">
+            <h2 class="text-xl font-bold"><a href="#article2">One trade 'deal' done, 199 to go</a></h2>
+            <p>Explore the latest updates on global markets and trade agreements...</p>
+        </div>
+        <a href="#home" class="text-red-600 hover:underline mt-4 inline-block">Back to Home</a>
+    </div>
+
+    <div class="main-content hidden" id="sports">
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tech News" class="w-full mb-2">
+            <h2 class="text-xl font-bold"><a href="#article3">Google is using AI to identify scammy websites</a></h2>
+            <p>Stay updated with the latest in technology and innovation...</p>
+        </div>
+        <a href="#home" class="text-red-600 hover:underline mt-4 inline-block">Back to Home</a>
+    </div>
+
+    <div class="main-content hidden" id="tech">
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1504711434969-e33886131599?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Media News" class="w-full mb-2">
+            <h2 class="text-xl font-bold">Media Industry Faces New Challenges</h2>
+            <p>Discover the latest trends and challenges in the media industry...</p>
+        </div>
+        <a href="#home" class="text-red-600 hover:underline mt-4 inline-block">Back to Home</a>
+    </div>
+
+    <div class="main-content hidden" id="entertainment">
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1558008258-7ff888d2a22e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Entertainment News" class="w-full mb-2">
+            <h2 class="text-xl font-bold">Explore Financial Calculators and Video Content</h2>
+            <p>Access tools and videos to help with financial planning...</p>
+        </div>
+        <a href="#home" class="text-red-600 hover:underline mt-4 inline-block">Back to Home</a>
+    </div>
+
+    <!-- Article Pages -->
+    <div class="main-content hidden" id="article1">
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Article Image" class="w-full mb-2">
+            <h2 class="text-3xl font-bold mb-4">Bill Gates announces plan to give 'virtually all' his money away and end the Gates Foundation in 20 years</h2>
+            <p class="text-gray-800">Bill Gates has announced a groundbreaking plan to donate nearly all of his wealth and dissolve the Bill & Melinda Gates Foundation within the next 20 years. This move aims to address global inequalities and fund critical initiatives in health, education, and climate change...</p>
+        </div>
+        <a href="#home" class="text-red-600 hover:underline mt-4 inline-block">Back to Home</a>
+    </div>
+
+    <div class="main-content hidden" id="article2">
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Article Image" class="w-full mb-2">
+            <h2 class="text-3xl font-bold mb-4">One trade 'deal' done, 199 to go</h2>
+            <p class="text-gray-800">A significant trade agreement has been finalized, marking a step forward in international relations. However, with 199 more deals pending, the road ahead remains challenging...</p>
+        </div>
+        <a href="#home" class="text-red-600 hover:underline mt-4 inline-block">Back to Home</a>
+    </div>
+
+    <div class="main-content hidden" id="article3">
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Article Image" class="w-full mb-2">
+            <h2 class="text-3xl font-bold mb-4">Google is using AI to identify scammy websites on Chrome when you click on them</h2>
+            <p class="text-gray-800">Google has introduced a new AI-powered feature in Chrome that detects and warns users about potentially fraudulent websites in real-time, enhancing online safety...</p>
+        </div>
+        <a href="#home" class="text-red-600 hover:underline mt-4 inline-block">Back to Home</a>
+    </div>
+
+    <div class="main-content hidden" id="article4">
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Article Image" class="w-full mb-2">
+            <h2 class="text-3xl font-bold mb-4">Will the Fed step in if America's labor market cracks from Trump's tariffs?</h2>
+            <p class="text-gray-800">Analysis on the potential Federal Reserve actions amid economic pressures from tariffs...</p>
+        </div>
+        <a href="#home" class="text-red-600 hover:underline mt-4 inline-block">Back to Home</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Developed by Abdul Rahim Soomro</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
